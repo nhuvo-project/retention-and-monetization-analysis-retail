@@ -31,7 +31,7 @@ Growth remains heavily acquisition-dependent rather than driven by compounding c
 
 ## Analytical Framework
 
-- **Growth Structure** — acquisition vs. repeat demand
+- **Growth Structure** — acquisition vs. repeat
 - **Retention & Purchase Behavior** — retention decay, repurchase frequency, value concentration
 - **Revenue Leakage** — return-driven revenue erosion
 - **Category Monetization** — demand-to-revenue conversion efficiency
