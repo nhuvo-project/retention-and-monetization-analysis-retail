@@ -1,0 +1,21 @@
+order_item_id,category,sale_price,discount_percentage,discount_tier,order_status,customer_type_lifetime,order_month
+133987,Accessories,0.0199999995529651,0,Full Price,Completed,Repeat buyer,2024-03-01
+88685,Accessories,0.0199999995529651,0,Full Price,In Progress,One time buyer,2020-11-01
+133539,Accessories,0.0199999995529651,0,Full Price,In Progress,One time buyer,2025-07-01
+88069,Accessories,0.0199999995529651,0,Full Price,In Progress,One time buyer,2023-02-01
+9998,Accessories,0.49000000953674311,0,Full Price,Returned,One time buyer,2024-12-01
+50568,Accessories,0.49000000953674311,0,Full Price,In Progress,One time buyer,2022-06-01
+50415,Accessories,1.5,0,Full Price,In Progress,One time buyer,2024-01-01
+25313,Accessories,1.5,0,Full Price,Completed,One time buyer,2019-12-01
+140577,Accessories,1.5,0,Full Price,Completed,One time buyer,2020-08-01
+94043,Accessories,1.5,0,Full Price,Returned,Repeat buyer,2026-01-01
+14763,Accessories,1.5,0,Full Price,Completed,One time buyer,2024-05-01
+64995,Accessories,1.5,0,Full Price,In Progress,Repeat buyer,2021-11-01
+56520,Accessories,1.5,0,Full Price,Returned,One time buyer,2022-03-01
+137523,Accessories,1.5,0,Full Price,In Progress,One time buyer,2025-11-01
+83186,Accessories,1.5,0,Full Price,In Progress,Repeat buyer,2024-01-01
+103306,Accessories,1.5,0,Full Price,In Progress,Repeat buyer,2024-06-01
+102798,Accessories,1.5,0,Full Price,Completed,Repeat buyer,2026-02-01
+117900,Accessories,1.5,0,Full Price,Returned,Repeat buyer,2022-10-01
+54817,Accessories,1.5,0,Full Price,In Progress,Repeat buyer,2022-12-01
+134407,Accessories,1.5099999904632568,0,Full Price,In Progress,Repeat buyer,2022-11-01
