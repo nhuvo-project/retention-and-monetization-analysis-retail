@@ -7,9 +7,9 @@
 
 
 -- =========================================
--- Q1. Is revenue growth slowing down?
--- Objective: Assess whether topline growth is slowing over time and 
--- identify signs of revenue deceleration
+-- Q1. How has revenue performance evolved over time?
+-- Objective: Assess revenue growth patterns and identify signs of volatility 
+-- or structural inconsistency
 -- =========================================
 
 WITH monthly_revenue AS (
@@ -43,9 +43,9 @@ ORDER BY 1 DESC;
 
 
 -- =========================================
--- Q2. Is the revenue slowdown driven by changes in customer dynamics?
--- Objective: Determine whether revenue performance depends primarily on 
--- customer acquisition or repeat customer contribution
+-- Q2. Is the revenue volatility driven by changes in customer dynamics?
+-- Objective: Evaluate whether acquisition and repeat customer behavior 
+-- explain fluctuations in revenue performance
 -- =========================================
 
 WITH first_purchase AS (
