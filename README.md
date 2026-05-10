@@ -1,23 +1,36 @@
-# Diagnosing Retention Collapse & Monetization Inefficiencies in Fashion E-commerce
+# Diagnosing Retention Collapse & Monetization Inefficiencies in Retail E-commerce
 
 ## Executive Summary
 
-The Look has a retention problem, not a demand problem.
+The Look generates demand effectively but fails to retain and fully monetize customers after acquisition.
 
-Using cohort analysis, customer segmentation, and revenue modeling across a star-schema structure, this project identifies where customer value breaks down after acquisition.
+Using cohort analysis, customer segmentation, and category-level revenue diagnostics across a star-schema retail dataset, this project identifies retention decay and monetization inefficiencies as the primary constraints to sustainable growth.
 
 ### Core Findings
-- Repeat buyers are few but drive disproportionate revenue
+- Revenue depends disproportionately on repeat buyers
 - Retention collapses shortly after first purchase
-- High-volume categories underperform on monetization
-- Fit-sensitive products generate elevated return leakage
-- Inventory is already aligned with demand
+- Returns create meaningful revenue leakage
+- High-demand categories remain under-monetized
+- Inventory allocation is already demand-aligned
 
 ### Strategic Implication
-Growth depends less on acquiring more customers and more on increasing customer lifetime value through:
-- Stronger retention
-- Lower return leakage
-- Better category monetization
+Long-term growth depends on increasing customer lifetime value rather than expanding acquisition volume alone.
+
+Key strategic priorities include:
+- Strengthening post-purchase retention
+- Reducing return-driven value leakage
+- Improving category monetization efficiency
+
+---
+
+## Deliverables
+
+### Interactive Dashboard
+https://datastudio.google.com/s/nEryUEoN0qE
+
+### Presentation Deck
+- PDF Version: `/presentation/full_case_deck.pdf`
+- Interactive Canva Version: https://canva.link/0n20o196xnejk99
 
 ---
 
@@ -25,36 +38,54 @@ Growth depends less on acquiring more customers and more on increasing customer 
 
 The Look converts traffic into first purchases effectively but struggles to retain and monetize customers over time.
 
-Growth remains heavily acquisition-dependent rather than driven by compounding customer value.
+As a result, growth remains heavily acquisition-dependent rather than driven by compounding customer value.
 
 ---
 
 ## Analytical Framework
 
-- **Growth Structure** — acquisition vs. repeat
-- **Retention & Purchase Behavior** — retention decay, repurchase frequency, value concentration
-- **Revenue Leakage** — return-driven revenue erosion
-- **Category Monetization** — demand-to-revenue conversion efficiency
-- **Operational Validation** — whether inventory constrains performance
+### Growth Structure
+- Acquisition vs. repeat customer contribution
+- Revenue stability and customer dynamics
+
+### Retention & Purchase Behavior
+- Cohort retention decay
+- Repurchase frequency
+- Customer value concentration
+
+### Revenue Leakage
+- Return-driven revenue erosion
+- Category-level return exposure
+
+### Category Monetization
+- Demand-to-revenue conversion efficiency
+- Pricing and monetization performance
+
+### Operational Validation
+- Inventory allocation vs. realized demand
 
 ---
 
-## Data & Modeling
+## Analytical Methodology
 
+### Data Preparation
 - Cleaned and validated transaction-level retail data
-- Duplicate and missing value handling
-- Star-schema structure across:
-  - Customers
-  - Orders
-  - Products
-  - Inventory
+- Duplicate and missing-value validation
+- Business-rule filtering and feature engineering
+
+### Data Modeling
+Star-schema structure across:
+- Customers
+- Orders
+- Products
+- Inventory
 
 ### SQL Techniques
 - CTEs
 - Window functions
 - Cohort analysis
 - Customer segmentation
-- Ranking & revenue contribution analysis
+- Ranking & contribution analysis
 
 ---
 
@@ -62,12 +93,24 @@ Growth remains heavily acquisition-dependent rather than driven by compounding c
 
 | Area | Finding |
 |---|---|
-| Growth | Acquisition-driven; repeat customer expansion remains weak |
-| Customer Value | Repeat buyers contribute disproportionate revenue |
-| Retention | Activity declines sharply after first purchase |
-| Returns | Fit-sensitive categories experience elevated return rates |
-| Category Performance | High order volume does not consistently translate into strong monetization |
-| Inventory | Inventory allocation is already demand-aligned |
+| Growth Structure | Revenue growth remains acquisition-driven with limited repeat expansion |
+| Customer Value | Repeat buyers contribute disproportionate revenue relative to customer share |
+| Retention | Customer activity declines sharply after first purchase |
+| Returns | Fit-sensitive categories experience elevated return leakage |
+| Category Monetization | High sales volume does not consistently translate into strong monetization |
+| Inventory Alignment | Inventory allocation is already closely aligned with customer demand |
+
+---
+
+## Dashboard Coverage
+
+Executive-level monitoring across:
+- Revenue dynamics
+- Customer retention
+- Repeat purchase behavior
+- Return leakage
+- Category monetization
+- Inventory-demand alignment
 
 ---
 
@@ -77,35 +120,17 @@ Growth remains heavily acquisition-dependent rather than driven by compounding c
 - Reduce return-driven value leakage
 - Improve monetization efficiency across underperforming categories
 
-> Long-term growth depends on customer lifetime value expansion, not acquisition volume alone.
+> Sustainable growth depends on expanding customer lifetime value rather than acquisition volume alone.
 
 ---
 
-## Dashboard Scope
+## Limitations & Future Improvements
 
-Executive-level monitoring across:
-- Revenue contribution
-- Retention performance
-- Return behavior
-- Category monetization
-- Inventory alignment
+This project was built on simulated retail data with simplified operational assumptions.
 
----
-
-## Interactive Dashboard
-
-View the interactive Looker Studio dashboard here:
-
-https://datastudio.google.com/s/nEryUEoN0qE
-
----
-
-## Limitations & Next Steps
-
-Built on simulated retail data with simplified operational assumptions.
-
-Future improvements:
-- Marketing attribution
-- Pricing elasticity
+Potential future enhancements include:
+- Marketing attribution analysis
+- Pricing elasticity modeling
 - Customer satisfaction metrics
 - Supply chain lead-time integration
+- Promotion and campaign effectiveness analysis
