@@ -84,11 +84,19 @@ Growth remains heavily acquisition-dependent rather than driven by compounding c
 ## Dashboard Scope
 
 Executive-level monitoring across:
-- Retention performance
 - Revenue contribution
+- Retention performance
 - Return behavior
 - Category monetization
 - Inventory alignment
+
+---
+
+## Interactive Dashboard
+
+View the interactive Looker Studio dashboard here:
+
+https://datastudio.google.com/s/nEryUEoN0qE
 
 ---
 
